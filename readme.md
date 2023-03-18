@@ -20,6 +20,7 @@
     * cluster.ini: This is the config seen from the game client when trying to connect. replace all the placeholder `example_` fields.
 
 4. Run `start_server.sh`
+    * To keep the server running after logging off ssh, instead run `screen -A -m -d -S dst-server ./start-servers.sh &`
 
 ## Mods
 
