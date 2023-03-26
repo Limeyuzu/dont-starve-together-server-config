@@ -1,6 +1,5 @@
 --ServerModSetup("000000000") -- description
 ServerModSetup("356930882") -- Infinite tent uses
-ServerModSetup("361994110") -- Bee Nice
 ServerModSetup("454635941") -- Cats like webber
 ServerModSetup("2885308926") -- Female Webber
 ServerModSetup("347079953") -- Display Food Values

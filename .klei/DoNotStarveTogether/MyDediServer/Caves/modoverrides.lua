@@ -6,7 +6,6 @@ return {
   --      enabled=true
   --  },
     ["workshop-356930882"] = { enabled = true }, -- Infinite tent uses
-    ["workshop-361994110"] = { enabled = true }, -- Bee Nice
     ["workshop-454635941"] = { enabled = true }, -- Cats like webber
     ["workshop-2885308926"] = { enabled = true }, -- Female Webber
     ["workshop-347079953"] = { enabled = true }, -- Display Food Values
