@@ -24,5 +24,8 @@
 
 ## Mods
 
-Some mods require it to be added to both the server and client.
-Mods can be added to the server by editing `.klei/DoNotStarveTogether/MyDediServer/Master/modoverrides.lua`. Copy the changes `.klei/DoNotStarveTogether/MyDediServer/Caves/modoverrides.lua` as well.
+Some mods require them to be added to both the server and client. 
+Mods can be added to the server by following these steps: 
+* Edit `.klei/DoNotStarveTogether/MyDediServer/Master/modoverrides.lua`. An example file has been provided, just add in the workshop ID.
+* Copy the changes `.klei/DoNotStarveTogether/MyDediServer/Caves/modoverrides.lua` as well.
+* Edit `mods/dedicated_server_mods_setup.lua` to include the same workshop IDs as well. An example file has been provided. 
