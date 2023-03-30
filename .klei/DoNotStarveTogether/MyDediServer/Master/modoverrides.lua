@@ -16,4 +16,7 @@ return {
     ["workshop-569043634"] = { enabled = true }, -- Campfire respawn
     ["workshop-378160973"] = { enabled = true }, -- Global Positions
     ["workshop-2797670225"] = { enabled = true }, -- Craft From Chest [DST] Fixed
+    ["workshop-2906717350"] = { enabled = true }, -- 45 Inventory Slots [EquipSlot UI expand]
+    ["workshop-2324689937"] = { enabled = true }, -- More equip slots
+    ["workshop-2321974509"] = { enabled = true }, -- Automatic chest sorting
 }

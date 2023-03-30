@@ -10,3 +10,6 @@ ServerModSetup("849986686") -- Better Pet
 ServerModSetup("569043634") -- Campfire respawn
 ServerModSetup("378160973") -- Global Positions
 ServerModSetup("2797670225") -- Craft From Chest [DST] Fixed
+ServerModSetup("2906717350") -- 45 Inventory Slots [EquipSlot UI expand]
+ServerModSetup("2324689937") -- More equip slots
+ServerModSetup("2321974509") -- Automatic chest sorting
