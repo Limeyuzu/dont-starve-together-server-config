@@ -13,3 +13,4 @@ ServerModSetup("2797670225") -- Craft From Chest [DST] Fixed
 ServerModSetup("2906717350") -- 45 Inventory Slots [EquipSlot UI expand]
 ServerModSetup("2324689937") -- More equip slots
 ServerModSetup("2321974509") -- Automatic chest sorting
+ServerModSetup("2813662590") -- Stack Size Settings (Wonkey Compatible)

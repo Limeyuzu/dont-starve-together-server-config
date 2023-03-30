@@ -19,4 +19,10 @@ return {
     ["workshop-2906717350"] = { enabled = true }, -- 45 Inventory Slots [EquipSlot UI expand]
     ["workshop-2324689937"] = { enabled = true }, -- More equip slots
     ["workshop-2321974509"] = { enabled = true }, -- Automatic chest sorting
+    ["workshop-2813662590"] = { enabled = true, configuration_options = {
+      stack_size_large=999,
+      stack_size_med=999,
+      stack_size_small=999,
+      stack_size_tiny=999 
+    }}, -- Stack Size Settings (Wonkey Compatible)
 }
