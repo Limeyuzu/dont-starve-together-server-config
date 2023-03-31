@@ -25,4 +25,5 @@ return {
       stack_size_small=999,
       stack_size_tiny=999 
     }}, -- Stack Size Settings (Wonkey Compatible)
+    ["workshop-2484725102"] = { enabled = true }, -- Upgradeable Chest
 }

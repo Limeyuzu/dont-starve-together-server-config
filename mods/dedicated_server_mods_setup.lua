@@ -14,3 +14,4 @@ ServerModSetup("2906717350") -- 45 Inventory Slots [EquipSlot UI expand]
 ServerModSetup("2324689937") -- More equip slots
 ServerModSetup("2321974509") -- Automatic chest sorting
 ServerModSetup("2813662590") -- Stack Size Settings (Wonkey Compatible)
+ServerModSetup("2484725102") -- Upgradeable Chest
