@@ -17,7 +17,22 @@ return {
     ["workshop-378160973"] = { enabled = true }, -- Global Positions
     ["workshop-2797670225"] = { enabled = true }, -- Craft From Chest [DST] Fixed
     ["workshop-2906717350"] = { enabled = true }, -- 45 Inventory Slots [EquipSlot UI expand]
-    ["workshop-2324689937"] = { enabled = true }, -- More equip slots
+    ["workshop-2324689937"] = { enabled = true, configuration_options = {
+      Compatibility=false,
+      config_auto_amulet=true,
+      config_auto_armor=false,
+      config_auto_backpack=true,
+      config_auto_dress=false,
+      config_mannequin=true,
+      config_render=true,
+      slot_amulet="extrabody3",
+      slot_armor="extrabody1",
+      slot_backpack=false,
+      slot_costume="extrabody2",
+      slot_dress="extrabody2",
+      slot_heavy=false,
+      ["Тype/slot mapping"]=false 
+    }}, -- More equip slots
     ["workshop-2321974509"] = { enabled = true }, -- Automatic chest sorting
     ["workshop-2813662590"] = { enabled = true, configuration_options = {
       stack_size_large=999,
