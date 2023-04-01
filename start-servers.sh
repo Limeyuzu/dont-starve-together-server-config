@@ -12,5 +12,7 @@ if [ -f $file ]; then
 fi
 
 cd "${installLocation}/bin64"
-./dontstarve_dedicated_server_nullrenderer_x64 -console -cluster MyDediServer -shard Master
-./dontstarve_dedicated_server_nullrenderer_x64 -console -cluster MyDediServer -shard Caves
+screen -A -m -d -S "Master" ./dontstarve_dedicated_server_nullrenderer_x64 -console -cluster MyDediServer -shard Master
+echo "starting master shard ('screen -r Master' to resume)"
+screen -A -m -d -S "Caves" ./dontstarve_dedicated_server_nullrenderer_x64 -console -cluster MyDediServer -shard Caves
+echo "starting caves shard ('screen -r Caves' to resume)"
